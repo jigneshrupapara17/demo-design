@@ -1,9 +1,4 @@
-/*--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
---*/
+
 html, body{
 	margin:0;
 	font-size: 100%;
@@ -66,6 +61,9 @@ h1.logo a {
 }
 h1.logo img {
 	max-width: 120px;
+}
+img{
+	max-width: 100%;
 }
 /*-- //logo --*/
 /*-- top-nav --*/
@@ -1032,11 +1030,18 @@ h3.subhead-agileits {
     padding: 3em 0;
 }
 /*-- mid-section --*/
-.middle-section-agileits-w3layouts {
-    background: url(../images/mid.jpg) no-repeat 0px 0px;
+/* .middle-section-agileits-w3layouts {
+    background: url(../images/banner3.jpg) no-repeat 0px 0px;
     background-size: cover;
-    background-attachment: fixed;
+	background-position: center;
+	position: relative;
+	min-height: 400px;
+   
 }
+.middle-section-agileits-w3layouts::before{
+	content: '';
+
+} */
 h3.subheading-agileits-w3layouts,h3.subheading-agileits-w3layouts {
     color: #EA3621;
     font-size: 30px;
@@ -2459,6 +2464,16 @@ h2.typoh2{
 	filter: alpha(opacity=0);
 }
 /*-- //to-top --*/
+
+
+.top-header {
+    padding: 10px;
+    background: #2e4c2f;
+}
+
+.top-header marquee {
+    color: #fff;
+}
 /*--responsive--*/
 @media(max-width:1600px){
 	
